@@ -3,16 +3,34 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    text-align: center;
+    background-color: brown;
+    padding: 15px;
+    color: white;
+    margin: 30px 0;
+    width: 100%;
 }
 
 
 .active{
-    border: 2px red solid;
+    border: 4px red solid;
     border-radius: 20px;
 }
 
 img{
+    margin-top: 10px;
     width: 700px;
+    transition: all .3s;
+}
+
+img:hover{
+    cursor: pointer;
+    transform: scale(0.9);
 }
 
 button{
